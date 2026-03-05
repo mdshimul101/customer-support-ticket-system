@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User cannot login to account.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failed",
+    "description": "Card declined during checkout.",
+    "customer": "Sarah Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-02"
+  },
+  {
+    "id": 3,
+    "title": "Profile Update Error",
+    "description": "Unable to update profile picture.",
+    "customer": "Emily Davis",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-03"
+  },
+  {
+    "id": 4,
+    "title": "Password Reset Problem",
+    "description": "Reset password link not working.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-04"
+  },
+  {
+    "id": 5,
+    "title": "Slow Website",
+    "description": "Website loading very slowly.",
+    "customer": "David Wilson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-05"
+  },
+  {
+    "id": 6,
+    "title": "Order Not Received",
+    "description": "Customer did not receive order confirmation.",
+    "customer": "Olivia Martinez",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-06"
+  },
+  {
+    "id": 7,
+    "title": "App Crash",
+    "description": "Mobile app crashes when opening settings.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-07"
+  },
+  {
+    "id": 8,
+    "title": "Notification Issue",
+    "description": "User not receiving notifications.",
+    "customer": "Sophia Taylor",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-08"
+  },
+  {
+    "id": 9,
+    "title": "Incorrect Billing",
+    "description": "Customer charged twice for one order.",
+    "customer": "Daniel Thomas",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-09"
+  },
+  {
+    "id": 10,
+    "title": "Search Not Working",
+    "description": "Search results not appearing.",
+    "customer": "Isabella Moore",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-10"
+  },
+  {
+    "id": 11,
+    "title": "Account Locked",
+    "description": "User account locked after multiple login attempts.",
+    "customer": "William Jackson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-11"
+  },
+  {
+    "id": 12,
+    "title": "File Upload Error",
+    "description": "Unable to upload documents.",
+    "customer": "Mia White",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-12"
+  },
+  {
+    "id": 13,
+    "title": "Email Not Verified",
+    "description": "Verification email not received.",
+    "customer": "Benjamin Harris",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-13"
+  },
+  {
+    "id": 14,
+    "title": "Dashboard Loading Issue",
+    "description": "Dashboard not loading after login.",
+    "customer": "Charlotte Clark",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-14"
+  },
+  {
+    "id": 15,
+    "title": "Subscription Cancel Error",
+    "description": "User cannot cancel subscription.",
+    "customer": "Lucas Lewis",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  }
+]

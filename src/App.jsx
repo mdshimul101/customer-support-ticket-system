@@ -1,15 +1,71 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import StatusCards from "./components/StatusCards";
-
+import TaskStatus from "./components/TaskStatus";
+import TicketCard from "./components/TicketCard";
+import { ToastContainer, toast } from "react-toastify";
 
 function App() {
+  const [tickets, setTickets] = useState([]);
+  const [tasks, setTasks] = useState([]);
+  const [resolved, setResolved] = useState([]);
+
+  useEffect(() => {
+    const ticketsFetch = async () => {
+      const res = await fetch("/tickets_data.json");
+      const data = await res.json();
+      // console.log("Fetched tickets:", data);
+      setTickets(data);
+    };
+
+    ticketsFetch();
+  }, []);
+
+  const handleAddTask = (ticket) => {
+    if (tasks.find((t) => t.id === ticket.id)) {
+      toast.warning("Ticket already added!");
+      return;
+    }
+
+    setTasks([...tasks, ticket]);
+    toast.success("Added to Task Status!");
+  };
+
+  const handleComplete = (ticket) => {
+    setTasks(tasks.filter((t) => t.id !== ticket.id));
+    setResolved([...resolved, ticket]);
+    toast.success("Task Completed!");
+  };
+
   return (
     <>
       <div className="min-h-screen bg-gray-50">
         <Navbar />
-        <StatusCards />
+        <StatusCards inProgress={tasks.length} resolved={resolved.length} />
+        <div className="container mx-auto px-4 py-4">
+          <h1 className="text-gray-800 text-2xl font-semibold">
+            Customer Tickets
+          </h1>
+        </div>
+        <div className="container mx-auto px-4 py-4 grid md:grid-cols-3 gap-6">
+          {/* Left Section */}
+          <div className="md:col-span-2 grid sm:grid-cols-1 md:grid-cols-2 gap-5">
+            {tickets.map((ticket) => (
+              <TicketCard
+                key={ticket.id}
+                ticket={ticket}
+                handleAddTask={handleAddTask}
+              />
+            ))}
+          </div>
+
+          {/* Right Section */}
+          <TaskStatus tasks={tasks} handleComplete={handleComplete} />
+        </div>
+        <ToastContainer position="top-right" />
+
         <Footer />
       </div>
     </>

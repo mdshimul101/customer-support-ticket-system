@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-gray-50 border-b shadow-sm">
-      <div className="navbar max-w-7xl mx-auto px-6 py-3">
+      <div className="navbar container mx-auto px-6 py-3">
 
         {/* Left Side - Logo */}
         <div className="flex-1">
@@ -30,12 +30,12 @@ const Navbar = () => {
         {/* Right Side - Menu for large screens */}
         <div className="flex-none hidden lg:flex">
           <ul className="menu menu-horizontal px-1 items-center gap-1 text-gray-600 font-medium">
-            <li><a className="hover:text-black">Home</a></li>
-            <li><a className="hover:text-black">FAQ</a></li>
-            <li><a className="hover:text-black">Changelog</a></li>
-            <li><a className="hover:text-black">Blog</a></li>
-            <li><a className="hover:text-black">Download</a></li>
-            <li><a className="hover:text-black">Contact</a></li>
+            <li><a className="hover:text-black hover:bg-gray-50">Home</a></li>
+            <li><a className="hover:text-black hover:bg-gray-50">FAQ</a></li>
+            <li><a className="hover:text-black hover:bg-gray-50">Changelog</a></li>
+            <li><a className="hover:text-black hover:bg-gray-50">Blog</a></li>
+            <li><a className="hover:text-black hover:bg-gray-50">Download</a></li>
+            <li><a className="hover:text-black hover:bg-gray-50">Contact</a></li>
 
             {/* Gradient Button */}
             <li>

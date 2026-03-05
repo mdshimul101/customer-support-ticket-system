@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-400 min-h-screen">
+    <footer className="bg-black text-gray-400">
       <div className="w-full px-6 py-12">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-6  gap-10">
