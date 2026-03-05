@@ -21,7 +21,7 @@ const TicketCard = ({ ticket, handleAddTask }) => {
         return "bg-green-100 text-green-700";
       case "Closed":
         return "bg-red-100 text-red-700";
-      case "Pending":
+      case "In Progress":
         return "bg-yellow-100 text-yellow-700";
       default:
         return "bg-gray-200 text-gray-700";

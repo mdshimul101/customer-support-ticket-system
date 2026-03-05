@@ -14,7 +14,7 @@
     "description": "Card declined during checkout.",
     "customer": "Sarah Johnson",
     "priority": "High",
-    "status": "Open",
+    "status": "In Progress",
     "createdAt": "2026-01-02"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Unable to update profile picture.",
     "customer": "Emily Davis",
     "priority": "Low",
-    "status": "Open",
+    "status": "Closed",
     "createdAt": "2026-01-03"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Reset password link not working.",
     "customer": "Michael Brown",
     "priority": "Medium",
-    "status": "Open",
+    "status": "In Progress",
     "createdAt": "2026-01-04"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Website loading very slowly.",
     "customer": "David Wilson",
     "priority": "Medium",
-    "status": "Open",
+    "status": "Closed",
     "createdAt": "2026-01-05"
   },
   {
@@ -59,7 +59,7 @@
     "description": "Mobile app crashes when opening settings.",
     "customer": "James Anderson",
     "priority": "High",
-    "status": "Open",
+    "status": "In Progress",
     "createdAt": "2026-01-07"
   },
   {
@@ -68,7 +68,7 @@
     "description": "User not receiving notifications.",
     "customer": "Sophia Taylor",
     "priority": "Low",
-    "status": "Open",
+    "status": "In Progress",
     "createdAt": "2026-01-08"
   },
   {
@@ -77,7 +77,7 @@
     "description": "Customer charged twice for one order.",
     "customer": "Daniel Thomas",
     "priority": "High",
-    "status": "Open",
+    "status": "In Progress",
     "createdAt": "2026-01-09"
   },
   {
@@ -104,7 +104,7 @@
     "description": "Unable to upload documents.",
     "customer": "Mia White",
     "priority": "Medium",
-    "status": "Open",
+    "status": "In Progress",
     "createdAt": "2026-01-12"
   },
   {
@@ -122,7 +122,7 @@
     "description": "Dashboard not loading after login.",
     "customer": "Charlotte Clark",
     "priority": "High",
-    "status": "Open",
+    "status": "In Progress",
     "createdAt": "2026-01-14"
   },
   {
