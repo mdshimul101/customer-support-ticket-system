@@ -44,7 +44,7 @@ function App() {
       <div className="min-h-screen bg-gray-100">
         <Navbar />
         <StatusCards inProgress={tasks.length} resolved={resolved.length} />
-        <div className="container mx-auto px-4 grid md:grid-cols-3 gap-6">
+        <div className="container mx-auto px-4 py-2 grid md:grid-cols-3 gap-6">
           <div className="md:col-span-2 flex items-center justify-between">
             <h1 className="text-gray-800 text-2xl font-semibold">
               Customer Tickets

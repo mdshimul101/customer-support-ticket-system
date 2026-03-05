@@ -4,7 +4,7 @@ const TaskStatus = ({ tasks, handleComplete, resolved }) => {
      
 
       {tasks.length === 0 ? (
-        <p className="text-gray-800">Select a ticket to add to Task Status.</p>
+        <p className="text-gray-500">Select a ticket to add to Task Status.</p>
       ) : (
         tasks.map((task) => (
           <div key={task.id} className="bg-white p-3 rounded mb-3 shadow">
@@ -20,9 +20,9 @@ const TaskStatus = ({ tasks, handleComplete, resolved }) => {
         ))
       )}
 
-      <h2 className="text-xl font-bold mb-2 text-gray-800">Resolved Tasks</h2>
+      <h2 className="text-xl font-bold mt-5 mb-2 text-gray-800">Resolved Tasks</h2>
       {resolved.length === 0 && (
-        <p className="text-gray-800">No resolved tasks yet.</p>
+        <p className="text-gray-500">No resolved tasks yet.</p>
       )}
       {resolved.map((task) => (
         <div key={task.id} className="bg-blue-100 p-3 rounded mb-3 shadow">
