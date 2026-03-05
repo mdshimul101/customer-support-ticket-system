@@ -1,6 +1,6 @@
 const TaskStatus = ({ tasks, handleComplete, resolved }) => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-100">
      
 
       {tasks.length === 0 ? (

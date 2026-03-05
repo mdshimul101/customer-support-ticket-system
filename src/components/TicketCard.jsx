@@ -59,7 +59,7 @@ const TicketCard = ({ ticket, handleAddTask }) => {
   return (
     <div
       onClick={() => handleAddTask(ticket)}
-      className="bg-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300"
+      className="bg-gray-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300"
     >
       {/* Top Row */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">

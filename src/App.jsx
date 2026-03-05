@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-100">
         <Navbar />
         <StatusCards inProgress={tasks.length} resolved={resolved.length} />
         <div className="container mx-auto px-4 grid md:grid-cols-3 gap-6">
@@ -54,7 +54,7 @@ function App() {
             <h2 className="text-xl font-bold mb-2 text-gray-800">Task Status</h2>
           </div>
         </div>
-        <div className="container mx-auto px-4 pb-4 pt-2 grid md:grid-cols-3 gap-6">
+        <div className="container mx-auto px-4 pb-4 grid md:grid-cols-3 gap-6">
           {/* Left Section */}
           <div className="md:col-span-2 grid sm:grid-cols-1 md:grid-cols-2 gap-5">
             {tickets.map((ticket) => (
