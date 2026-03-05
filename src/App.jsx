@@ -56,7 +56,7 @@ function App() {
         </div>
         <div className="container mx-auto px-4 pb-4 grid md:grid-cols-3 gap-6">
           {/* Left Section */}
-          <div className="md:col-span-2 grid sm:grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="md:col-span-2 grid  md:grid-cols-1 gap-5 order-2 md:order-1">
             {tickets.map((ticket) => (
               <TicketCard
                 key={ticket.id}
@@ -67,11 +67,13 @@ function App() {
           </div>
 
           {/* Right Section */}
-          <TaskStatus
+          <div className="order-1 md:order-2">
+            <TaskStatus
             tasks={tasks}
             handleComplete={handleComplete}
             resolved={resolved}
           />
+          </div>
         </div>
         <ToastContainer position="top-right" />
 
