@@ -1,31 +1,3 @@
-// const TicketCard = ({ ticket, handleAddTask }) => {
-//   return (
-//     <div className="card bg-base-100 shadow">
-//       <div className="card-body">
-//         <h2 className="card-title">{ticket.title}</h2>
-//         <p>{ticket.description}</p>
-
-//         <div className="text-sm mt-2">
-//           <p><b>Customer:</b> {ticket.customer}</p>
-//           <p><b>Priority:</b> {ticket.priority}</p>
-//           <p><b>Date:</b> {ticket.createdAt}</p>
-//         </div>
-
-//         <div className="card-actions justify-end mt-4">
-//           <button
-//             onClick={() => handleAddTask(ticket)}
-//             className="btn btn-sm btn-success"
-//           >
-//             Add Task
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default TicketCard;
-
 import React from "react";
 import { FiCalendar } from "react-icons/fi";
 

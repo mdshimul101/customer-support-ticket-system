@@ -24,8 +24,12 @@ function App() {
   }, []);
 
   const handleAddTask = (ticket) => {
-    if (tasks.find((t) => t.id === ticket.id)) {
+    if (tasks.find((t) => t.id === ticket.id) ) {
       toast.warning("Ticket already added!");
+      return;
+    }
+    if(resolved.find((t) => t.id === ticket.id) ) {
+      toast.warning("Ticket already resolved!");
       return;
     }
 
