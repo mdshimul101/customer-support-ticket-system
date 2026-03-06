@@ -35,14 +35,15 @@ function App() {
 
     setTasks([...tasks, ticket]);
     toast.success("Added to Task Status!");
-    const updtedTickets = tickets.filter((t) => t.id !== ticket.id);
-    setTickets(updtedTickets);
   };
 
   const handleComplete = (ticket) => {
-    setTasks(tasks.filter((t) => t.id !== ticket.id));
+    const updatedTasks = tasks.filter((t) => t.id !== ticket.id);
+    setTasks(updatedTasks);
     setResolved([...resolved, ticket]);
     toast.success("Task Completed!");
+    const updtedTickets = tickets.filter((t) => t.id !== ticket.id);
+    setTickets(updtedTickets);
   };
 
   return (

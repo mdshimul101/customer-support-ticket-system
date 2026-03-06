@@ -23,7 +23,7 @@
     "description": "Unable to update profile picture.",
     "customer": "Emily Davis",
     "priority": "Low",
-    "status": "Closed",
+    "status": "Open",
     "createdAt": "2026-01-03"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Website loading very slowly.",
     "customer": "David Wilson",
     "priority": "Medium",
-    "status": "Closed",
+    "status": "Open",
     "createdAt": "2026-01-05"
   },
   {
