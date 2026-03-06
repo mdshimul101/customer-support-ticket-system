@@ -35,6 +35,8 @@ function App() {
 
     setTasks([...tasks, ticket]);
     toast.success("Added to Task Status!");
+    const updtedTickets = tickets.filter((t) => t.id !== ticket.id);
+    setTickets(updtedTickets);
   };
 
   const handleComplete = (ticket) => {
